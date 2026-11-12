@@ -1,0 +1,138 @@
+{
+  "@@locale": "en",
+  "appTitle": "BiteBox",
+  "kitchenTitle": "BiteBox Kitchen",
+  "kitchenSubtitle": "Single-store menu · burgers, pizza, drinks & desserts",
+  "navMenu": "Menu",
+  "navCart": "Cart",
+  "navOrders": "Orders",
+  "signIn": "Sign in",
+  "signOut": "Sign out",
+  "signedOut": "Signed out.",
+  "signedInAs": "Signed in as {email}",
+  "@signedInAs": {
+    "placeholders": {
+      "email": {"type": "String"}
+    }
+  },
+  "language": "Language",
+  "languageSystem": "System",
+  "languageEnglish": "English",
+  "languageChinese": "中文",
+  "searchMenuHint": "Search the menu",
+  "categoryAll": "All",
+  "categoryBurgers": "Burgers",
+  "categoryPizza": "Pizza",
+  "categoryDrinks": "Drinks",
+  "categoryDesserts": "Desserts",
+  "loading": "Loading…",
+  "loadingMenu": "Loading menu…",
+  "loadingOrders": "Loading orders…",
+  "tryAgain": "Try again",
+  "menuLoadError": "Could not load the menu. Check your connection.",
+  "menuEmpty": "No dishes match your filters.",
+  "productTitle": "Product",
+  "productLoadError": "Could not load dish.",
+  "productMissing": "This dish is no longer on the menu.",
+  "ratingCategory": "★ {rating} · {category}",
+  "@ratingCategory": {
+    "placeholders": {
+      "rating": {"type": "String"},
+      "category": {"type": "String"}
+    }
+  },
+  "addToCart": "Add to cart",
+  "addedToCart": "Added {quantity} × {name}",
+  "@addedToCart": {
+    "placeholders": {
+      "quantity": {"type": "int"},
+      "name": {"type": "String"}
+    }
+  },
+  "viewCart": "View cart",
+  "cartTitle": "Cart",
+  "cartEmpty": "Your cart is empty.\nAdd something tasty from the menu.",
+  "goToMenu": "Go to menu",
+  "remove": "Remove",
+  "subtotal": "Subtotal",
+  "checkout": "Checkout",
+  "checkoutEmpty": "Your cart is empty.\nAdd dishes before checkout.",
+  "deliveryAddress": "Delivery address",
+  "guestCheckout": "Checking out as guest",
+  "signInRequiredCheckout": "Sign in to continue checkout",
+  "payment": "Payment",
+  "paymentCardDemo": "Card",
+  "paymentCashOnDelivery": "Cash on delivery",
+  "orderSummary": "Order summary",
+  "lineQuantityName": "{quantity} × {name}",
+  "@lineQuantityName": {
+    "placeholders": {
+      "quantity": {"type": "int"},
+      "name": {"type": "String"}
+    }
+  },
+  "total": "Total",
+  "placeOrder": "Place order",
+  "placingOrder": "Placing order…",
+  "orderConfirmed": "Order {id} confirmed",
+  "@orderConfirmed": {
+    "placeholders": {
+      "id": {"type": "String"}
+    }
+  },
+  "placeOrderFailed": "Could not place order: {error}",
+  "@placeOrderFailed": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+  "ordersTitle": "Orders",
+  "ordersLoadError": "Could not load orders. Sign in again or retry.",
+  "ordersEmpty": "No orders yet.\nPlace an order from checkout.",
+  "orderItemsPayment": "{count} items · {payment}",
+  "@orderItemsPayment": {
+    "placeholders": {
+      "count": {"type": "int"},
+      "payment": {"type": "String"}
+    }
+  },
+  "orderStatusPending": "Pending",
+  "orderStatusConfirmed": "Confirmed",
+  "orderStatusPreparing": "Preparing",
+  "orderStatusCompleted": "Completed",
+  "signInTitle": "Sign in",
+  "welcomeTitle": "Welcome to BiteBox",
+  "email": "Email",
+  "emailHint": "name@example.com",
+  "password": "Password",
+  "forgotPassword": "Forgot password?",
+  "forgotPasswordPlaceholder": "Password recovery is unavailable in this demo.",
+  "signingIn": "Signing in…",
+  "createAccount": "Create account",
+  "orContinueWith": "or continue with",
+  "google": "Google",
+  "apple": "Apple",
+  "googleComingSoon": "Google sign-in coming soon.",
+  "appleComingSoon": "Apple sign-in coming soon.",
+  "continueAsGuest": "Continue as guest",
+  "signUpTitle": "Create account",
+  "joinTitle": "Join BiteBox",
+  "passwordHelper": "At least 6 characters",
+  "creatingAccount": "Creating account…",
+  "backToSignIn": "Back to sign in",
+  "accountCreated": "Account created for {email}",
+  "@accountCreated": {
+    "placeholders": {
+      "email": {"type": "String"}
+    }
+  },
+  "authEmailRequired": "Enter your email.",
+  "authEmailInvalid": "Enter a valid email address.",
+  "authPasswordRequired": "Enter your password.",
+  "authPasswordTooShort": "Password must be at least {min} characters.",
+  "@authPasswordTooShort": {
+    "placeholders": {
+      "min": {"type": "int"}
+    }
+  }
+}

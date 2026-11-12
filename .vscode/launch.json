@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "bitebox_app (mock)",
+      "request": "launch",
+      "type": "dart",
+      "args": [
+        "--dart-define=BACKEND_MODE=mock"
+      ]
+    },
+    {
+      "name": "bitebox_app (supabase)",
+      "request": "launch",
+      "type": "dart",
+      "args": [
+        "--dart-define-from-file=.vscode/supabase.local.json"
+      ]
+    }
+  ]
+}
